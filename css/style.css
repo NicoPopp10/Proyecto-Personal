@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+@font-face {
+    font-family: "Agbalumo" ;
+    src: url(../font/Agbalumo-Regular.ttf);}
+@font-face { 
+    font-family: "Anton" ;
+    src: url(../font/Anton-Regular.ttf);}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+:root{
+    --color-alpha: #98FFEB ;
+    --color-beta: #50DBE7 ; 
+    --fuente-titulos: "Agbalumo" ;
+    ---fuente-subtitulos: "Anton";
+    --fondo-estandar: radial-gradient( circle 845.4px at 10% 20%, rgba(152,255,235,1) 0%, rgba(207,175,23,0.17) 99.4% ); }
+
+header{
+    color: black;
+    font-family: var(--fuente-titulos) ;
+    background-color: var(--color-alpha);
+    text-shadow: white 0 0 10px;}
+
+.flex-container{
+    background-image: radial-gradient( circle 845.4px at 10% 20%, rgba(152,255,235,1) 0%, rgba(207,175,23,0.17) 99.4% );
+    background-repeat: no-repeat;
+    background-size: cover ;
+    min-height: 200vh ;
+    box-shadow: black ;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    align-content: center ;
+    flex-flow: row wrap;
+    row-gap: 50px;
+    column-gap: 50px;
+}
+
+main.cosas{
+    background-color: coral;}
+
+.cosas {
+    height: 20px;
+    width: 20px;
+    border: solid 2px salmon;} 
